@@ -1,0 +1,158 @@
+.header {
+    background-color: rgb(10, 11, 39);
+    height: 70.5px;
+    position: fixed;
+    width: 100%;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.parle {
+    margin-top: 25px;
+    width: 119px;
+    margin-left: 24.5px;
+    float: left;
+    height: 26px;
+}
+.header img {
+    margin-top: 20px;
+    margin-left: 26px;
+}
+.letter {
+    margin-top: -34px;
+    /* height: 70px; */
+    width: 64%;
+    float: left;
+    color: aliceblue;
+    background-color: rgb(10, 11, 39);
+    margin-left: 542px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+}
+.letter a:hover{
+    color: #e6391e;
+    cursor: pointer;
+}
+.picture {
+    background-image: url(050251APPY-FIZZ_Digital_2023-Kriti-1.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image {
+    display: flex;
+    height: 866px;  
+}
+.appy-rotate {
+    display: flex;
+    position: relative;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    width: 759px;
+    background-color: black;
+    z-index: -10;
+}
+.left {
+    width: 755px;
+    height: 466px;
+    background-image: url(042954050849E9452E_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    max-width: 50%;
+    color: aliceblue;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 200px;
+}
+.right {
+    width: 800px;
+    background-color: rgb(248, 248, 248);
+    height: 866px;
+}
+#para2 {
+    margin: 100px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.soc-icon {
+    margin-top: -4rem;
+    margin-left: 6rem;
+}
+#pho {
+    background-image: url(042954050849E9452E_01.png);
+    padding-top: 451px;
+    font-size: 224px;
+    background-size: 210px;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    height: 78%;
+}
+.last img{
+    background-color: blue;
+    margin-bottom: 100px;
+    
+   
+}
+#appy-head{
+    color: white;
+    font-size: 76px;
+    margin-top: -72%;
+    margin-left: -51%;
+    text-align: center;
+}
+.last-img{
+    height: 854px;
+    /* background-color: blue; */
+    background-image: url(./053402APPY-FIZZ_Social-Media_Range_2023.jpg);
+    background-size: cover;
+}
+.footer-container{
+    height: 266px;
+    width: 100%;
+    background-color:#fff;
+    display: flex;
+}
+.footer-div{
+    width: 33.5%;
+    height: 266px;
+    
+}
+.footer-div p a{
+text-decoration: none;
+color: black;
+font-weight: 400;
+}
+.footer-div p a:hover{
+text-decoration: underline;
+color: #e6391e;
+}
+.first{
+    background-color:#fff;
+    padding: 76px;
+    padding-left: 117px;
+}
+.second{
+    background-color:#fff;
+    padding: 76px;
+    padding-left: 117px;
+   
+    padding-right: 12px;
+    padding-left: 93px;
+
+}
+.third{
+    background-color:#fff;
+    padding: 76px;
+    padding-left: 117px;
+    float: left;
+}
